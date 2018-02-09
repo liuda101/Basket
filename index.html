@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basket</title>
+    <script src="dist/basket.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      {{msg}}
+    </div>
+
+    <script type="text/javascript">
+      var app = new Basket({
+        el: '#app',
+        data: {
+          msg: 'Hello Basket!!'
+        }
+      })
+    </script>
+  </body>
+</html>
